@@ -39,12 +39,12 @@ async function loadCards() {
         if(size === "Small"){
             size = "width: 18rem;"
             const htmlstring = `
-            <div class="col-4 mx-auto" >
+            <div class="" >
             <div class="card" style="${size}">
             <div class="card-body">
             ${link}
             </div>
-            <div class="col-sm">
+            <div class="">
                 <button type="button" style="float:right;" data-uid=${doc.id} id="removeMusicBtn" class="btn btn-dark">Remove</button>
             </div>
             </div>
